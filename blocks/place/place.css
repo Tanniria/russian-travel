@@ -22,7 +22,15 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 479px) {
+    .place {
+        padding: 50px 0 0 0;
+        gap: 32px;
+    }
+
+}
+
+@media screen and (max-width: 352px) {
     .place {
         padding: 50px 0 0 0;
         gap: 32px;

@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 510px) {
-    .nav__list{
+    .footer__nav {
       flex-direction: column;
       gap: 32px;
     }
