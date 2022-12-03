@@ -1,0 +1,23 @@
+.cover__block-naming {
+    max-width: 560px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+/* @media screen and (max-width: 768px) {
+    .cover__block-naming {
+        
+    }
+  } */
+  
+  @media screen and (max-width: 320px) {
+    .cover__block-naming {
+        max-width: 288px;
+        height: 77px;
+    }
+}
+

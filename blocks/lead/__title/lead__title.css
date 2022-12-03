@@ -1,0 +1,26 @@
+.lead__title {
+    max-width: 720px;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        padding: 0 24px;
+        font-size: calc(40px + 56 * ((100vw - 320px) / (768 - 320)));
+        line-height: 1.04;
+    } 
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        padding: 0 16px;
+        line-height: 1.04;
+    }
+}

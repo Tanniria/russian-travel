@@ -1,0 +1,35 @@
+.place {
+    display: grid;
+    gap: 40px 48px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    padding: 80px 0 0 0;
+}
+
+.place:first-child {
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 32px 48px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .place {
+        padding: 73px 0 0 0;
+        gap: 28px 48px;
+    }
+    .place:first-child {
+        padding: 0;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding: 50px 0 0 0;
+    }
+    .place:first-child {
+        padding: 0;
+    } 
+}
