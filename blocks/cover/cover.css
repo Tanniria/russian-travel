@@ -1,9 +1,7 @@
 .cover {
     min-width: 320px;
     max-width: 1184px;
-    height: auto;
-    height: auto;
-    height: auto;
+    min-height: 500px;
     position: relative;
     margin: 92px auto 0 auto;
     text-align: center;
@@ -12,13 +10,13 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        margin-top: 90px;
+        padding: 90px 0;
     }
 }
   
 @media screen and (max-width: 320px) {
     .cover {
-        margin-top: 66px;
+        padding: 66px 0 0 0;
     }
 }
 
