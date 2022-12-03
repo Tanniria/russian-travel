@@ -6,16 +6,16 @@
     width: 560px;
     color: #fff;
     transform: translate(-50%, -50%);
-    }
+}
     
-    @media screen and (max-width: 560px) {
+@media screen and (max-width: 560px) {
     .cover__block-naming {
-    max-width: calc(250px + (560 - 250) * ((100vw - 320px) / (560 - 310)));
+      max-width: calc(250px + (560 - 250) * ((100vw - 320px) / (560 - 320)));
     }
-    }
-    
-    @media screen and (max-width: 320px) {
+  }
+  
+  @media screen and (max-width: 320px) {
     .cover__block-naming {
-    max-width: 250px;
+      max-width: 250px;
     }
-    }
+  }
