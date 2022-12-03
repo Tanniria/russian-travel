@@ -1,23 +1,21 @@
 .cover__block-naming {
-    max-width: 560px;
-    z-index: 2;
     position: absolute;
+    z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    width: 560px;
     color: #fff;
-}
-
-/* @media screen and (max-width: 768px) {
-    .cover__block-naming {
-        
+    transform: translate(-50%, -50%);
     }
-  } */
-  
-  @media screen and (max-width: 320px) {
+    
+    @media screen and (max-width: 560px) {
     .cover__block-naming {
-        max-width: 288px;
-        height: 77px;
+    max-width: calc(250px + (560 - 250) * ((100vw - 320px) / (560 - 310)));
     }
-}
-
+    }
+    
+    @media screen and (max-width: 320px) {
+    .cover__block-naming {
+    max-width: 250px;
+    }
+    }
