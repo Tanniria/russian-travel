@@ -1,12 +1,13 @@
 .cover__link {
   max-width: 1184px;
   width: 100%;
-  height: auto;
+  /* height: auto; */
   /* background-image: url('/images/cover-trains.jpg'); */
   background-image: url(/images/cover-trains.jpg);
   background-size: cover;
   display: block;
   padding-top: 62.5%;
+  /* height: calc(0.62 * 100vw); */
 }  
 
 .cover__link::before {
