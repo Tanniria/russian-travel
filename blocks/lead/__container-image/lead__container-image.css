@@ -1,3 +1,15 @@
 .lead__container-image {
     margin-top: 64px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__container-image {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .lead__container-image {
+        margin-top: 40px;
+    }
+}

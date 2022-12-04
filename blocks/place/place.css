@@ -1,8 +1,9 @@
 .place {
+    padding: 80px 0 0 0;
+    margin: 0;
     display: grid;
-    padding-top: 80px;
-    gap: 40px 48px;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 48px 40px;
 }
     
 .place:first-child {
@@ -11,33 +12,43 @@
     
 @media screen and (max-width: 1024px) {
     .place {
-        grid-column-gap: 32px;
+        gap: 32px 48px;
+        padding: 70px 0 0 0;
     }
 }
-
-
 
 @media screen and (max-width: 768px) {
     .place {
         grid-column-gap: 28px;
-        padding: 73px 24px 0 24px;
+        padding: 53px 24px 0 24px;
+    }
+    .place:first-child {
+        padding-top: 88px;
     }
 }
 
-@media screen and (max-width: 479px) {
-    .place {
-        padding: 50px 0 0 0;
-        gap: 32px;
+@media screen and (max-width: 600px) {
+    .place:first-child {
+        padding-top: 64px;
     }
-
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .place {
         padding: 50px 0 0 0;
         gap: 32px;
     }
     .place:first-child {
     padding-top: 64px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding: 56px 0 0 0;
+        gap: 34px;
+    }
+    .place:first-child {
+        padding-top: 64px;
     }
 }
