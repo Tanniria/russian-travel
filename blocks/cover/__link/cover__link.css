@@ -2,10 +2,11 @@
   max-width: 1184px;
   width: 100%;
   height: auto;
+  padding-top: 62.5%;
   background-image: url('/images/cover-trains.jpg');
   background-size: cover;
   display: block;
-  aspect-ratio: 1 / 0.625;
+  
 }  
 
 .cover__link::before {
