@@ -6,8 +6,8 @@
   background-image: url('../../../images/cover-trains.jpg');
   background-size: cover;
   display: block;
-  padding-top: 62.5%;
-  /* height: calc(0.62 * 100vw); */
+  /* padding-top: 62.5%; */
+  aspect-ratio: 1 / 0.625;
 }  
 
 .cover__link::before {
