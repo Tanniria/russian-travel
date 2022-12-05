@@ -7,27 +7,16 @@
     text-align: center;
     color: #FFFFFF; 
 }
-
 @media screen and (max-width: 768px) {
     .lead__title {
         padding: 0 24px;
-        font-size: calc(70px + 26 * (100vw / 1280));
+        font-size: calc(46px + (96 - 46) * ((100vw - 320px) / (768 - 320)));
         line-height: 1.04;
-    } 
+    }
 }
-
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 560px) {
     .lead__title {
         padding: 0 16px;
-        font-size: 40px;
-        line-height: 1.04;
-    } 
-}
-
-@media screen and (max-width: 335px) {
-    .lead__title {
-        padding: 0 16px;
-        font-size: 40px;
-        line-height: 1.04;
+        font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
     }
 }
