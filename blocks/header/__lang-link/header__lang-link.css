@@ -7,11 +7,9 @@
     color: #fff;
     transition: .4s linear;
 }
-
 .header__lang-link:hover {
     opacity: 0.6;
 }
-
 @media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;
