@@ -7,4 +7,4 @@
 * Плавное изменение прозрачности ссылок достигнуто благодаря [*transition*](https://developer.mozilla.org/ru/docs/Web/CSS/transition).
 
 #### С сайтом можно ознакомиться по ссылке(https://tanniria.github.io/russian-travel/).
-#### Проект выполнен [**Смаковой Татьяной**](https://vk.com/id221691656)
+
